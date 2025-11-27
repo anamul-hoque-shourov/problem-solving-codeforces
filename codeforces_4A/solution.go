@@ -2,7 +2,7 @@ package codeforces_4A
 
 import "fmt"
 
-func Solution() {
+func solution() {
 	var w int
 	_, err := fmt.Scanf("%d", &w)
 	if err != nil {
@@ -17,5 +17,5 @@ func Solution() {
 }
 
 func TestCode() {
-	Solution()
+	solution()
 }
